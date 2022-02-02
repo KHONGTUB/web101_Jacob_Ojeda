@@ -1,0 +1,56 @@
+header{
+    border: 1px solid black;
+    width: 850px;
+    height: 450px;
+    margin-bottom: 250px;
+
+}
+
+footer{
+    border: 1px solid black;
+    height: 324;
+    width: 1000px;
+    display: flex;
+    background-color: lightgray;
+}
+
+.title{
+
+    margin-right: 100px;
+    padding: 5px;
+    font-size: 40px;
+}
+
+.smalltext{
+    font-size: 12pt;
+    padding-top:10px;
+    margin-left: 5px;
+}
+
+article{
+    margin-right: 20px;
+}
+
+.NASA{
+    position: absolute;
+    top:40%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    font-size: 50pt;
+    color: white;
+}
+
+#name{
+    width: 250px;
+    margin-bottom: 5px;
+}
+
+#Message{
+    height: 70px;
+    width: 250px;
+    margin-bottom: 5px;
+}
+
+#submit{
+    margin-bottom: 5px;
+}
