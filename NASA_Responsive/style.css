@@ -1,0 +1,109 @@
+
+@media(max-width:991px){
+    header{
+        background-image: url(space.jpg);
+        border: 1px solid black;
+        width: 53vw;
+        height: 65vh;
+        margin-bottom: 30px;
+    
+    }
+
+    .NASA{
+        padding-left: 40%;
+        padding-top: 25%;
+        font-size: 50pt;
+        color: white;
+    }
+
+    footer{
+        border: 1px solid black;
+        width: 53vw;
+        height: 65vh;
+        display: flex;
+        background-color: lightgray;
+        display: grid;
+        padding-top: 30px;
+    }
+
+    section{
+        text-align: center;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    .title{
+        font-size: 40px;
+    }
+    
+    #name{
+        margin-bottom: 5px;
+    }
+    
+    #Message{
+        height: 40px;
+        
+        margin-bottom: 5px;
+    }
+    
+
+}
+
+@media(min-width: 992px){
+    header{
+        background-image: url(space.jpg);
+        border: 1px solid black;
+        width: 53vw;
+        height: 65vh;
+        margin-bottom: 30px;
+    
+    }
+    
+    footer{
+        border: 1px solid black;
+        width: 53vw;
+        height: 324px;
+        display: grid;
+        grid-template-columns: 33% 33% 34%;
+        background-color: lightgray;
+    }
+    
+    .title{
+        padding-top: 30px;
+        font-size: 40px;
+    }
+    
+
+    section{
+        text-align: left;
+        padding-left: 60px;
+        padding-right: 60px;
+        width: 230px;
+    }
+    
+    .smalltext{
+        padding-top: 30px;
+    }
+
+    .NASA{
+        padding-left: 40%;
+        padding-top: 25%;
+        font-size: 50pt;
+        color: white;
+    } 
+    
+    #name{
+        width: 250px;
+        margin-bottom: 5px;
+    }
+    
+    #Message{
+        height: 70px;
+        width: 250px;
+        margin-bottom: 5px;
+    }
+    
+    #submit{
+        margin-bottom: 5px;
+    }
+}
